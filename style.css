@@ -277,6 +277,7 @@ body.lock {
     background-size: cover;
     backdrop-filter: blur(5px);
     border-radius: 15px;
+    cursor: pointer;
 }
 .popular__header {
 
@@ -320,7 +321,6 @@ body.lock {
     left: -15px;
     top: -10px;
     position: absolute;
-
 }
 
 .popular__visit {
