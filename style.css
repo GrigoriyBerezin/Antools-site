@@ -309,15 +309,19 @@ body.lock {
 }
 
 .popular__icons {
+    position: relative;
    margin: 0px 0px 0px 7px;
    display: flex;
    align-items: center;
    gap: 20px;
 }
-.popular__column:hover .popular__icons {
-    background: url(./img/popular/heart_red.png) no-repeat;
-    background-position: top -10px left -15px;
- }
+.popular__column:hover .popular__icons::before{
+    content: url(./img/popular/heart_red.png);
+    left: -15px;
+    top: -10px;
+    position: absolute;
+
+}
 
 .popular__visit {
     font-weight: 600;
