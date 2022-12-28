@@ -452,6 +452,13 @@ body.lock {
     gap: 30px;
 }
 
+.newcomer__box:hover .newcomer__links::before{
+    content: url(./img/popular/heart_red.png);
+    left: 7px;
+    bottom: 8px;
+    position: absolute;
+}
+
 .newcomer__text {
     font-weight: 500;
     font-size: 24px;
