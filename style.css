@@ -67,15 +67,11 @@ body.lock {
 	}
 }
 /*========== HEADER ==========*/
-.header {
-}
 .header__container {
     min-height: 96px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.header__content {
 }
 .header__logo {
     display: flex;
@@ -87,7 +83,6 @@ body.lock {
     line-height: 33px;
     color: rgba(255, 255, 255, 0.9);
 }
-.header__menu {}
 .header__list {
     display: flex;
     gap: 40px;
@@ -149,7 +144,6 @@ body.lock {
     justify-content: space-between;
     /* gap: 110px; */
 }
-.hero__block {}
 .hero__title {
     max-width: 600px;
     font-weight: 500;
@@ -169,7 +163,6 @@ body.lock {
     line-height: 30px;
     color: rgba(255, 255, 255, 0.55);
 }
-.hero__form {}
 .hero__search {
     position: relative;
     width: 497.66px;
@@ -178,7 +171,6 @@ body.lock {
     background-color: #283036;
     background-repeat: no-repeat;
     background-position: bottom 20px left 18px;
-    /* background-position: 100% 0; */
     border-radius: 15px;
     color: #FDF5FF;
     padding: 0px 0px 0px 42px;
@@ -213,14 +205,11 @@ body.lock {
     display: flex;
     gap: 20px;
 }
-.hero__img img {}
-.hero__right {}
 
 /*========== POPULAR ==========*/
 .popular {
     margin-top: 181px;
 }
-.popular__container {}
 .popular__content {
     display: flex;
     flex-direction: column;
@@ -228,7 +217,6 @@ body.lock {
     align-items: center;
     gap: 90px;
 }
-.popular__hat {}
 .popular__items {
     font-weight: 500;
     font-size: 48px;
@@ -276,7 +264,6 @@ body.lock {
     display: flex;
     gap: 30px;
 }
-.popular__titles {}
 .popular__title {
     font-weight: 500;
     font-size: 24px;
@@ -325,6 +312,7 @@ body.lock {
     padding: 9px 35px;
     background: #FF6E30;
     border-radius: 8px;
+    color:#FDF5FF;
     margin: -9px 0px -9px -35px;
 }
 
@@ -381,12 +369,10 @@ body.lock {
 .newcomer {
     margin-top: 200px;
 }
-.newcomer__container {}
 .newcomer__content {
     display: flex;
     justify-content: space-between;
 }
-.newcomer__left {}
 .newcomer__title {
     font-weight: 500;
     font-size: 48px;
@@ -439,7 +425,7 @@ body.lock {
     display: flex;
     gap: 30px;
 }
-.newcomer__hat {}
+
 .newcomer__text {
     font-weight: 500;
     font-size: 24px;
@@ -481,6 +467,7 @@ body.lock {
     padding: 9px 35px;
     background: #FF6E30;
     border-radius: 8px;
+    color: #FDF5FF;
     margin: -9px -35px -9px -35px;
 }
 
@@ -488,7 +475,7 @@ body.lock {
 .testimon {
     margin-top: 200px;
 }
-.testimon__container {}
+
 .testimon__content {
     position: relative;
     display: flex;
@@ -526,13 +513,11 @@ body.lock {
     right: 0;
     top: 255px;
 }
-.testimon__svg {}
 
 /*========== JOIN ==========*/
 .join {
     margin-top: 200px;
 }
-.join__container {}
 .join__content {
     display: flex;
     flex-direction: column;
@@ -602,13 +587,13 @@ body.lock {
     top: 0;
     position: absolute;
 }
-.footer__container {}
+
 .footer__content {
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
 }
-.footer__left {}
+
 .footer__hat {
     display: flex;
     align-items: center;
